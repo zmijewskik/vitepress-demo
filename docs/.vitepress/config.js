@@ -1,7 +1,10 @@
 const ourStorySidebar = [{ text: 'Our Story', link: '/about/our-story' }]
 
 module.exports = {
+    lang: 'en-US',
     title: 'Vitepress Test Documentation',
+    description: 'Vite & Vue pwered static site generator.',
+    base: '/vitepress-demo/',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
@@ -16,11 +19,4 @@ module.exports = {
             '/contact': ourStorySidebar,
         },
     },
-}
-
-export default {
-    lang: 'en-US',
-    title: 'Vitepress Test Documentation',
-    description: 'Vite & Vue pwered static site generator.',
-    base: '/vitepress-demo/'
 }
