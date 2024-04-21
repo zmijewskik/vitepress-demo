@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as e,a2 as n}from"./chunks/framework.CB8EpGC0.js";const g=JSON.parse('{"title":"Hello World!","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),s={name:"index.md"},l=n("",12),o=[l];function i(r,c,d,h,p,b){return e(),t("div",null,o)}const u=a(s,[["render",i]]);export{g as __pageData,u as default};
