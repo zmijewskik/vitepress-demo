@@ -11,6 +11,19 @@ module.exports = {
         },
         nav: [
             { text: 'Home', link: '/' },
+            { text: 'Code', link: '/code' },
+            { 
+                text: 'Code', 
+                items: [
+                    { text: 'HTML', link: '/html' },
+                    { text: 'CSS', link: '/css' },
+                    { text: 'js', link: '/js' },
+                    { text: 'less', link: '/less' },
+                    { text: 'php', link: '/php' },
+                    { text: 'Smarty', link: '/smarty' },
+                    { text: 'Vue', link: '/vue' },
+                ] 
+            },
             { text: 'About', link: '/about/' },
             { text: 'Contact', link: '/contact' },
             // { text: 'Guide', link: '/guide/' },
