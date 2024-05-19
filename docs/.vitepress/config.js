@@ -6,6 +6,9 @@ module.exports = {
     description: 'Vite & Vue pwered static site generator.',
     base: '/vitepress-demo/',
     themeConfig: {
+        search: {
+            provider: 'local'
+        },
         nav: [
             { text: 'Home', link: '/' },
             { text: 'About', link: '/about/' },
