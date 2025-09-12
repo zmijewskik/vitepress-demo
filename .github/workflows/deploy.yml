@@ -1,5 +1,4 @@
 # Sample workflow for building and deploying a VitePress site to GitHub Pages
-#
 name: Deploy VitePress site to Pages
 
 on:
@@ -37,7 +36,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm # or pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v4

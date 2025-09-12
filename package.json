@@ -1,7 +1,7 @@
 {
   "name": "vitepress-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "VitePress documentation demo",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs --open",
@@ -10,9 +10,9 @@
     "preview": "vitepress preview docs --port 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "zmijewskik",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.2.0"
+    "vitepress": "^2.0.0-alpha.12"
   }
 }
